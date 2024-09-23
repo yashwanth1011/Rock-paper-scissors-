@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+#navigationBar{
+    background-color: black;
+    color:white;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#rock, #scissors, #paper{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+   
+
+    
+}
+
+
+#rock{
+    background-image: url(rock.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#paper{
+    background-image: url(paper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#scissors{
+    background-image: url(scissors.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#images{
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#rock:hover, #paper:hover, #scissors:hover{
+    opacity: 0.3;
+}
+
+#images:hover{
+    cursor: pointer;
+   
+}
+
+
+
+#content{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#you-container, #computer-container{
+    width:50px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+
+  
+
+
+    
+}
+
+#win{
+    background-color: green;
+}
+
+#lose{
+    background-color: red;
+}
+
+#score-number-user, #score-number-comp{
+    font-size: 40px;
+}
+
+#you-computer-score{
+    
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+
+
+/* #outer{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+
+} */
+#pick-your-move{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+
+}
