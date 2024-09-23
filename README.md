@@ -50,5 +50,5 @@ This is a simple **Rock-Paper-Scissors** game implemented in HTML, CSS, and Java
    ```bash
    cd rock-paper-scissors
    ```
-3. 3.	Open the RockPaperScissor.html file in your browser to start the game:
+3. Open the RockPaperScissor.html file in your browser to start the game:
 -	Simply open the HTML file locally in your browser to start playing.
